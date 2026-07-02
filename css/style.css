@@ -1,0 +1,877 @@
+/* ==========================
+   ATTUR AG CHURCH WEBSITE
+========================== */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+:root{
+    --primary:#0B1F3A;
+    --secondary:#D4AF37;
+    --white:#ffffff;
+    --light:#F8F9FA;
+    --dark:#222222;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+    font-family:'Poppins',sans-serif;
+    background:var(--white);
+    color:var(--dark);
+    overflow-x:hidden;
+}
+
+a{
+    text-decoration:none;
+}
+
+ul{
+    list-style:none;
+    margin:0;
+    padding:0;
+}
+
+/* ===============================
+   TOP BAR
+================================= */
+
+.top-bar{
+    background:var(--primary);
+    color:var(--white);
+    text-align:center;
+    padding:8px 0;
+    font-size:15px;
+    font-weight:500;
+}
+
+.top-bar p{
+    margin:0;
+}
+
+.top-bar i{
+    color:var(--secondary);
+    margin-right:8px;
+}
+
+/* ===============================
+   NAVBAR
+================================= */
+
+.navbar{
+    background:rgba(11,31,58,.95);
+    padding:15px 0;
+}
+
+.navbar-brand img{
+    height:60px;
+}
+
+.nav-link{
+    color:white !important;
+    font-weight:500;
+    margin:0 12px;
+    transition:.3s;
+}
+
+.nav-link:hover,
+.nav-link.active{
+    color:var(--secondary) !important;
+}
+
+.social-icons a{
+    color:white;
+    margin-left:15px;
+    font-size:20px;
+    transition:.3s;
+}
+
+.social-icons a:hover{
+    color:var(--secondary);
+}
+
+.navbar-toggler{
+    border:none;
+}
+
+.navbar-toggler i{
+    color:white;
+    font-size:24px;
+}
+
+/* ===============================
+   HERO SECTION
+================================= */
+
+.hero{
+    min-height:100vh;
+    background:
+    linear-gradient(rgba(11,31,58,.70),rgba(11,31,58,.70)),
+    url("../images/hero/church.png");
+
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    text-align:center;
+    color:white;
+}
+
+.hero h5{
+    color:var(--secondary);
+    letter-spacing:5px;
+    font-weight:600;
+}
+
+.hero h1{
+    font-family:'Cinzel',serif;
+    font-size:70px;
+    margin:20px 0;
+}
+
+.hero h2{
+    font-family:'Cormorant Garamond',serif;
+    font-size:38px;
+    max-width:900px;
+    margin:auto;
+    line-height:1.4;
+}
+
+.hero p{
+    margin-top:20px;
+    font-size:22px;
+    color:var(--secondary);
+}
+
+.hero-buttons{
+    margin-top:40px;
+}
+
+.hero-buttons a{
+    margin:10px;
+    padding:14px 35px;
+}
+/* ===============================
+   ABOUT SECTION
+================================= */
+
+.about{
+    background:#f8f9fa;
+    padding:80px 0;
+}
+
+.about h2{
+    font-family:'Cinzel',serif;
+    color:#0B1F3A;
+}
+
+.about p{
+    line-height:1.9;
+    color:#555;
+    font-size:17px;
+}
+
+.about img{
+    border-radius:15px;
+}
+
+/* ===============================
+   SERVICE TIMINGS
+================================= */
+
+.services{
+    padding:80px 0;
+    background:#ffffff;
+}
+
+.services h2{
+    font-family:'Cinzel',serif;
+    color:#0B1F3A;
+}
+
+.service-card{
+    background:#fff;
+    padding:35px 25px;
+    border-radius:15px;
+    box-shadow:0 10px 25px rgba(0,0,0,.08);
+    transition:.3s;
+}
+
+.service-card:hover{
+    transform:translateY(-8px);
+}
+
+.service-card i{
+    font-size:45px;
+    color:#D4AF37;
+    margin-bottom:20px;
+}
+
+.service-card h4{
+    color:#0B1F3A;
+    margin-bottom:10px;
+}
+
+.service-card h5{
+    color:#D4AF37;
+    font-weight:600;
+}
+
+/* ===============================
+   PASTOR SECTION
+================================= */
+
+.pastor{
+    padding:80px 0;
+    background:#f8f9fa;
+}
+
+.pastor h2{
+    font-family:'Cinzel',serif;
+    color:#0B1F3A;
+}
+
+.pastor h6{
+    color:#D4AF37;
+    font-weight:600;
+}
+
+.pastor p{
+    line-height:1.9;
+    color:#555;
+}
+
+.pastor-img{
+    width:100%;
+    max-width:420px;
+    border-radius:20px;
+    box-shadow:0 15px 35px rgba(0,0,0,.15);
+}
+
+/* ===============================
+   EVENTS SECTION
+================================= */
+
+.events{
+    background:#fff;
+    padding:80px 0;
+}
+
+.events h2{
+    font-family:'Cinzel',serif;
+    color:#0B1F3A;
+}
+
+.event-card{
+    background:#fff;
+    border-radius:15px;
+    overflow:hidden;
+    box-shadow:0 10px 25px rgba(0,0,0,.08);
+    transition:.3s;
+}
+
+.event-card:hover{
+    transform:translateY(-8px);
+}
+
+.event-card img{
+    width:100%;
+    height:230px;
+    object-fit:cover;
+}
+
+.event-card h4{
+    color:#0B1F3A;
+}
+
+.event-card p{
+    color:#666;
+}
+
+/* ===============================
+   OFFERING SECTION
+================================= */
+
+.offering{
+    background:#f8f9fa;
+    padding:80px 0;
+}
+
+.offering h2{
+    font-family:'Cinzel',serif;
+    color:#0B1F3A;
+}
+
+.offering p{
+    color:#555;
+    line-height:1.9;
+    margin:20px 0;
+}
+
+.offering img{
+    max-width:450px;
+    border-radius:20px;
+    box-shadow:0 15px 35px rgba(0,0,0,.15);
+}
+
+/* ===============================
+   FOOTER
+================================= */
+
+.footer{
+    background:#0B1F3A;
+    color:#fff;
+    padding:70px 0 20px;
+}
+
+.footer h4{
+    color:#D4AF37;
+    margin-bottom:20px;
+}
+
+.footer p,
+.footer li{
+    color:#ddd;
+    line-height:2;
+}
+
+.footer ul{
+    padding:0;
+}
+
+.footer a{
+    color:#ddd;
+    transition:.3s;
+}
+
+.footer a:hover{
+    color:#D4AF37;
+}
+
+.footer hr{
+    border-color:rgba(255,255,255,.2);
+    margin:30px 0;
+}
+
+/* ===============================
+   GALLERY
+================================= */
+
+.gallery{
+    padding:80px 0;
+    background:#ffffff;
+}
+
+.gallery h2{
+    font-family:'Cinzel',serif;
+    color:#0B1F3A;
+}
+
+.gallery-img{
+    width:100%;
+    height:280px;
+    object-fit:cover;
+    border-radius:15px;
+    transition:.4s;
+    box-shadow:0 10px 25px rgba(0,0,0,.10);
+}
+
+.gallery-img:hover{
+    transform:scale(1.05);
+}
+
+/* ===============================
+   CONTACT PREVIEW
+================================= */
+
+.contact-preview{
+    background:#f8f9fa;
+    padding:80px 0;
+}
+
+.contact-preview h2{
+    font-family:'Cinzel',serif;
+    color:#0B1F3A;
+}
+
+.contact-card{
+    background:#fff;
+    padding:35px 25px;
+    border-radius:15px;
+    box-shadow:0 10px 25px rgba(0,0,0,.08);
+    transition:.3s;
+}
+
+.contact-card:hover{
+    transform:translateY(-8px);
+}
+
+.contact-card i{
+    font-size:40px;
+    color:#D4AF37;
+    margin-bottom:15px;
+}
+
+.contact-card h4{
+    color:#0B1F3A;
+}
+/* ==========================
+   ABOUT HERO SECTION
+========================== */
+
+.about-hero{
+    background:
+    linear-gradient(rgba(11,31,58,.75),rgba(11,31,58,.75)),
+    url("../images/hero/church.png");
+
+    background-size:cover;
+    background-position:center;
+
+    padding:120px 0;
+
+    text-align:center;
+
+    color:#fff;
+}
+
+.about-hero h1{
+    font-family:'Cinzel',serif;
+    font-size:55px;
+    margin-bottom:20px;
+}
+
+.about-hero p{
+    font-size:22px;
+    max-width:700px;
+    margin:auto;
+}
+/* ==========================
+   ABOUT PAGE
+========================== */
+
+.about-hero{
+    background:
+    linear-gradient(rgba(11,31,58,.75),rgba(11,31,58,.75)),
+    url("../images/hero/church.png");
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+    padding:140px 0;
+    text-align:center;
+    color:#fff;
+}
+
+.about-hero h1{
+    font-family:'Cinzel',serif;
+    font-size:55px;
+    margin-bottom:20px;
+}
+
+.about-hero p{
+    font-size:22px;
+    max-width:700px;
+    margin:auto;
+}
+
+.history img,
+.pastor-message img{
+    border-radius:15px;
+}
+
+.history h2,
+.vision-mission h2,
+.beliefs h2,
+.pastor-message h2{
+    font-family:'Cinzel',serif;
+    color:#0B1F3A;
+    margin-bottom:20px;
+}
+
+.join-us{
+    background:#0B1F3A;
+    color:#fff;
+}
+
+.join-us h2{
+    font-family:'Cinzel',serif;
+}
+
+.footer{
+    background:#111;
+    color:#fff;
+    padding:60px 0 20px;
+}
+
+.footer h4{
+    color:#D4AF37;
+    margin-bottom:20px;
+}
+
+.footer ul{
+    padding:0;
+}
+
+.footer ul li{
+    margin-bottom:10px;
+}
+
+.footer ul li a{
+    color:#fff;
+    text-decoration:none;
+}
+
+.footer ul li a:hover{
+    color:#D4AF37;
+}
+
+.footer hr{
+    border-color:#444;
+}
+
+/* ==========================
+   GALLERY HERO
+========================== */
+
+.gallery-hero{
+    background:
+    linear-gradient(rgba(11,31,58,.75),rgba(11,31,58,.75)),
+    url("../images/hero/church.png");
+
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+
+    padding:140px 0;
+
+    text-align:center;
+
+    color:#fff;
+}
+
+.gallery-hero h1{
+    font-family:'Cinzel',serif;
+    font-size:55px;
+    margin-bottom:20px;
+}
+
+.gallery-hero p{
+    font-size:22px;
+    max-width:700px;
+    margin:auto;
+}
+
+/* ==========================
+   GALLERY SECTION
+========================== */
+
+.gallery-img{
+    width:100%;
+    height:300px;
+    object-fit:cover;
+    border-radius:15px;
+    transition:.3s;
+}
+
+.gallery-img:hover{
+    transform:scale(1.05);
+}
+
+/* ==========================
+   CONTACT PAGE
+========================== */
+
+.contact-hero{
+    background:
+    linear-gradient(rgba(11,31,58,.75),rgba(11,31,58,.75)),
+    url("../images/hero/church.png");
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+    padding:140px 0;
+    text-align:center;
+    color:#fff;
+}
+
+.contact-hero h1{
+    font-family:'Cinzel',serif;
+    font-size:55px;
+    margin-bottom:20px;
+}
+
+.contact-hero p{
+    font-size:22px;
+}
+
+.contact-info i{
+    color:#D4AF37;
+}
+
+.contact-info h4{
+    margin-top:15px;
+    margin-bottom:10px;
+}
+
+.contact-form{
+    background:#F8F9FA;
+}
+
+.contact-form h2{
+    font-family:'Cinzel',serif;
+    color:#0B1F3A;
+}
+
+.contact-form .form-control{
+    padding:15px;
+}
+
+.contact-form button{
+    padding:12px 35px;
+}
+
+/* ==========================
+   EVENTS PAGE
+========================== */
+
+.events-hero{
+    background:
+    linear-gradient(rgba(11,31,58,.75),rgba(11,31,58,.75)),
+    url("../images/hero/church.png");
+
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+
+    padding:140px 0;
+
+    text-align:center;
+    color:#fff;
+}
+
+.events-hero h1{
+    font-family:'Cinzel',serif;
+    font-size:55px;
+    margin-bottom:20px;
+}
+
+.events-section h2{
+    font-family:'Cinzel',serif;
+    color:#0B1F3A;
+}
+
+.events-section .card img{
+    height:250px;
+    object-fit:cover;
+}
+
+.events-section .card{
+    transition:.3s;
+}
+
+.events-section .card:hover{
+    transform:translateY(-8px);
+}
+
+/* Weekly Services */
+
+.weekly-services h2{
+    font-family:'Cinzel',serif;
+    color:#0B1F3A;
+}
+
+.weekly-services i{
+    color:#D4AF37;
+}
+
+/* ==========================
+   SPECIAL EVENTS
+========================== */
+
+.special-events h2{
+    font-family:'Cinzel', serif;
+    color:#0B1F3A;
+}
+
+.special-events .card{
+    transition:.3s;
+}
+
+.special-events .card:hover{
+    transform:translateY(-8px);
+}
+
+/* ==========================
+   SERMONS PAGE
+========================== */
+
+.sermons-hero{
+    background:
+    linear-gradient(rgba(11,31,58,.75),rgba(11,31,58,.75)),
+    url("../images/hero/church.png");
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+    padding:140px 0;
+    text-align:center;
+    color:#fff;
+}
+
+.sermons-hero h1{
+    font-family:'Cinzel',serif;
+    font-size:55px;
+    margin-bottom:20px;
+}
+
+.sermons-section h2{
+    font-family:'Cinzel',serif;
+    color:#0B1F3A;
+}
+
+.sermons-section .card img{
+    height:250px;
+    object-fit:cover;
+}
+
+.sermons-section .card{
+    transition:.3s;
+}
+
+.sermons-section .card:hover{
+    transform:translateY(-8px);
+}
+
+/* ==========================
+   FEATURED SERMON
+========================== */
+
+.featured-sermon h2,
+.youtube-section h2{
+    font-family:'Cinzel', serif;
+    color:#0B1F3A;
+}
+
+.youtube-section{
+    background:#ffffff;
+}
+
+/* ==========================
+   BOOK STORE PAGE
+========================== */
+
+.bookstore-hero{
+
+    background:
+    linear-gradient(rgba(11,31,58,.75),rgba(11,31,58,.75)),
+    url("../images/hero/church.png");
+
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+
+    padding:140px 0;
+
+    text-align:center;
+
+    color:white;
+
+}
+
+.bookstore-hero h1{
+
+    font-family:'Cinzel',serif;
+
+    font-size:55px;
+
+}
+
+.books-section h2{
+
+    font-family:'Cinzel',serif;
+
+    color:#0B1F3A;
+
+}
+
+.books-section .card img{
+
+    height:320px;
+
+    object-fit:cover;
+
+}
+
+.books-section .card{
+
+    transition:.3s;
+
+}
+
+.books-section .card:hover{
+
+    transform:translateY(-8px);
+
+}
+
+/* ==========================
+   OFFERING PAGE
+========================== */
+
+.offering-hero{
+
+    background:
+    linear-gradient(rgba(11,31,58,.75),rgba(11,31,58,.75)),
+    url("../images/hero/church.png");
+
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+
+    padding:140px 0;
+
+    text-align:center;
+
+    color:white;
+
+}
+
+.offering-hero h1{
+
+    font-family:'Cinzel',serif;
+
+    font-size:55px;
+
+}
+
+.ways-to-give h2,
+.offering-details h3,
+.thank-you h2{
+
+    font-family:'Cinzel',serif;
+
+    color:#0B1F3A;
+
+}
+
+.offering-details .card{
+
+    border-radius:15px;
+
+}
+
+
+
+
+
+
+
+
+
+
