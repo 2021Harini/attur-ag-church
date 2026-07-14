@@ -112,7 +112,7 @@ ul{
     min-height:100vh;
     background:
     linear-gradient(rgba(11,31,58,.70),rgba(11,31,58,.70)),
-    url("../images/hero/church.png");
+    url("../images/hero/church2.png");
 
     background-size:cover;
     background-position:center;
@@ -431,7 +431,7 @@ ul{
 .about-hero{
     background:
     linear-gradient(rgba(11,31,58,.75),rgba(11,31,58,.75)),
-    url("../images/hero/church.png");
+    url("../images/hero/church2.png");
 
     background-size:cover;
     background-position:center;
@@ -461,7 +461,7 @@ ul{
 .about-hero{
     background:
     linear-gradient(rgba(11,31,58,.75),rgba(11,31,58,.75)),
-    url("../images/hero/church.png");
+    url("../images/hero/church1.png");
     background-size:cover;
     background-position:center;
     background-repeat:no-repeat;
@@ -544,7 +544,7 @@ ul{
 .gallery-hero{
     background:
     linear-gradient(rgba(11,31,58,.75),rgba(11,31,58,.75)),
-    url("../images/hero/church.png");
+    url("../images/gallery/Galleryb1.png");
 
     background-size:cover;
     background-position:center;
@@ -592,7 +592,7 @@ ul{
 .contact-hero{
     background:
     linear-gradient(rgba(11,31,58,.75),rgba(11,31,58,.75)),
-    url("../images/hero/church.png");
+    url("../images/contact/contactb1.png");
     background-size:cover;
     background-position:center;
     background-repeat:no-repeat;
@@ -644,7 +644,7 @@ ul{
 .events-hero{
     background:
     linear-gradient(rgba(11,31,58,.75),rgba(11,31,58,.75)),
-    url("../images/hero/church.png");
+    url("../images/events/eventb1.png");
 
     background-size:cover;
     background-position:center;
@@ -715,7 +715,7 @@ ul{
 .sermons-hero{
     background:
     linear-gradient(rgba(11,31,58,.75),rgba(11,31,58,.75)),
-    url("../images/hero/church.png");
+    url("../images/sermons/sermonsb3.png");
     background-size:cover;
     background-position:center;
     background-repeat:no-repeat;
@@ -770,7 +770,7 @@ ul{
 
     background:
     linear-gradient(rgba(11,31,58,.75),rgba(11,31,58,.75)),
-    url("../images/hero/church.png");
+    url("../images/bookstore/bookstoreb3.png");
 
     background-size:cover;
     background-position:center;
@@ -828,7 +828,7 @@ ul{
 
     background:
     linear-gradient(rgba(11,31,58,.75),rgba(11,31,58,.75)),
-    url("../images/hero/church.png");
+    url("../images/offering/offeringb2.png");
 
     background-size:cover;
     background-position:center;
@@ -865,11 +865,177 @@ ul{
     border-radius:15px;
 
 }
+.sermon-card img{
+    width:100%;
+    height:250px;
+    object-fit:cover;
+}
 
+.sermon-card{
+    transition:.3s;
+}
 
+.sermon-card:hover{
+    transform:translateY(-8px);
+}
+.statement-section h2{
+    color:#0B1F3A;
+}
 
+.statement-section p{
+    color:#555;
+}
+/* ===============================
+   Statement CTA
+================================= */
 
+.join-church{
+    background:#0B1F3A;
+    color:#fff;
+    padding:80px 0;
+}
 
+.join-church h2{
+    font-family:'Cinzel', serif;
+    font-size:42px;
+    margin-bottom:20px;
+}
+
+.join-church p{
+    max-width:700px;
+    margin:auto;
+    line-height:1.8;
+    font-size:18px;
+    color:#ddd;
+}
+
+.join-church .btn{
+    padding:12px 35px;
+    border-radius:8px;
+    font-weight:600;
+}
+.map-section{
+    padding:0;
+}
+
+.map-section iframe{
+    width:100%;
+    height:450px;
+    border:0;
+}
+.footer a{
+    color:#fff;
+    text-decoration:none;
+    transition:.3s;
+}
+
+.footer a:hover{
+    color:#D4AF37;
+}
+
+.footer ul li{
+    margin-bottom:10px;
+}
+
+.footer .social-icons a{
+    font-size:22px;
+    margin-right:15px;
+}
+
+.footer .social-icons a:hover{
+    transform:scale(1.2);
+}
+/*==============================
+FOOTER
+==============================*/
+
+.footer{
+
+    background:#111;
+
+    color:#fff;
+
+    padding:70px 0 25px;
+
+}
+
+.footer-logo{
+
+    width:80px;
+
+    border-radius:8px;
+
+}
+
+.footer h4{
+
+    color:#D4AF37;
+
+    margin-bottom:20px;
+
+    font-weight:600;
+
+}
+
+.footer p{
+
+    color:#ddd;
+
+    line-height:1.8;
+
+}
+
+.footer-links{
+
+    list-style:none;
+
+    padding:0;
+
+}
+
+.footer-links li{
+
+    margin-bottom:12px;
+
+}
+
+.footer a{
+
+    color:#fff;
+
+    text-decoration:none;
+
+    transition:.3s;
+
+}
+
+.footer a:hover{
+
+    color:#D4AF37;
+
+}
+
+.social-icons a{
+
+    font-size:24px;
+
+    margin-right:18px;
+
+}
+
+.social-icons a:hover{
+
+    color:#D4AF37;
+
+}
+
+.footer hr{
+
+    border-color:#444;
+
+    margin:40px 0 20px;
+
+}
 
 
 

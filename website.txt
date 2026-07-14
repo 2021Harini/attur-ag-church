@@ -1,0 +1,76 @@
+<!-- Our Beliefs Start -->
+
+<section class="beliefs py-5">
+
+    <div class="container">
+
+        <div class="text-center mb-5">
+
+            <h5 class="text-warning">OUR FAITH</h5>
+
+            <h2>Statement of Faith</h2>
+
+            <p class="mt-3">
+                We follow the <strong>Assemblies of God 16 Fundamental Truths</strong>,
+                which summarize our biblical beliefs and guide our faith, worship,
+                and ministry.
+            </p>
+
+        </div>
+
+        <div class="row justify-content-center">
+
+            <div class="col-lg-8">
+
+                <div class="card border-0 shadow text-center p-5">
+
+                    <i class="fas fa-book-open fa-4x text-warning mb-4"></i>
+
+                    <h3>Assemblies of God Fundamental Truths</h3>
+
+                    <p class="mt-3">
+                        Our Statement of Faith is based on the 16 Fundamental Truths
+                        of the Assemblies of God. These truths express our core
+                        biblical beliefs and provide the foundation for our teaching,
+                        worship, and Christian living.
+                    </p>
+
+                    <a href="statement-of-faith.html"
+                       class="btn btn-warning mt-4">
+                        Read Full Statement of Faith
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- Our Beliefs End -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Address:
+Kannadi Mill Back Side
+(Nearby Geeth Ragunath Hospital)
+Attur, Salem - 636102
+
+Church Address (Plus Code):
+HHVX+JH2, Attur, Tamil Nadu - 636102
